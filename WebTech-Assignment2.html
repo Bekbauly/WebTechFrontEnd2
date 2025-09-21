@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 2 — CSS</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="top-banner" class="header-background">
+    <h1 class="header-title">Мой сайт</h1>
+    <nav id="navbar">
+      <a class="nav-link" href="#about">About the site</a>
+      <a class="nav-link" href="#gallery">Gallery</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content-wrapper">
+    <section id="about" class="layout-section about-section">
+      <h2 class="section-heading">About the site</h2>
+      <p class="paragraph-text">This is a tutorial page for Web Technologies.</p>
+    </section>
+
+    <section id="gallery" class="layout-section gallery-section">
+      <h2 class="section-heading">Gallery</h2>
+      <img id="main-image" class="featured-image" src="https://media.istockphoto.com/id/1356775701/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D1%86%D0%B0-%D0%BA%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4-%D0%BD%D1%83%D1%80-%D1%81%D1%83%D0%BB%D1%82%D0%B0%D0%BD-%D0%B7%D0%B8%D0%BC%D0%BD%D0%B8%D0%BC-%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=E2relLhcMsB8iRW4oexgfMZFSqpxfafiJloKUl2Zw4c=" alt="Пример изображения">
+    </section>
+
+    <section id="contact" class="layout-section contact-section">
+      <h2 class="section-heading">Contact</h2>
+      <form id="user-form">
+        <input class="form-input" type="text" placeholder="Имя">
+        <input class="form-input" type="email" placeholder="Email">
+        <button class="submit-btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer-container" class="footer-bg">
+    <p class="paragraph-text">© 2025 Educational project</p>
+  </footer>
+</body>
+</html>
